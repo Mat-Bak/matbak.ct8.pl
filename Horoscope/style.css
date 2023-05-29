@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    /* font-family: 'Lobster Two', cursive; */
+    color: white;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select{
+    background-color: rgb(131, 105, 136);
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+#container{
+    border: solid rgb(101 74 141);
+    border-radius: 20px;
+    background-color: rgba(29, 5, 56, 0.9);
+    padding: 50px;
+    margin: 50px 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.data>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.data>div>label{
+    font-size: 1.3rem;
+}
+
+.horoscopeImages{
+    border-top:solid 2px rgb(101 74 141);
+    border-bottom:solid 2px rgb(101 74 141);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.horoscopeImg, .horoscopeSing{
+    position: relative;
+    border-radius: 40px;
+    border: solid rgb(63, 17, 117) 2px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/HoroscopeBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.horoscopeImages>div>p{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+.lucky{
+    font-size: 1.3rem;
+    padding: 10px 0;
+    border-bottom: solid 2px rgb(101 74 141);
+}
+
+.horoscopeName{
+    font-size: 2rem;
+}
+
+.horoscopeText{
+    padding-top: 20px;
+    
+}
+
+.horoscope{
+    font-size: 1.3rem;
+}
+
+.lucky{
+    display: flex;
+    justify-content: center;
+}
+
+.luckyNumber, .luckyColor{
+    margin: 0 40px;
+    text-align: center;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:  rgb(131, 105, 136);
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}

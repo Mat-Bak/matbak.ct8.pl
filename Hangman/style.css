@@ -1,0 +1,94 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./images/cementary.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+}
+
+#leftSite {
+    float: left;
+    margin-top: 5vh;
+    width: 45vw;
+    margin-left: 5vw;
+}
+
+#rightSite {
+    float: right;
+    width: 50vw;
+}
+
+#word {
+    letter-spacing: 5px;
+    font-size: 2rem;
+    padding: 30px 20px;
+    border: 3px black solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(148, 148, 148, 0.9);
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(93, 93, 93);
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#reset {
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 30px;
+    display: none;
+}
+
+#letters {
+    padding: 20px 30px;
+}
+
+#letters button {
+    padding: 10px;
+    margin: 10px;
+}
+
+#output {
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.step {
+    position: absolute;
+    opacity: 0;
+}
+
+#category {
+    text-align: center;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    color: rgb(93, 61, 0);
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(270deg, rgba(55, 61, 70, 0) 0%, rgb(192, 190, 190) 20%, rgba(192, 190, 190, 1) 50%, rgba(192, 190, 190, 1) 80%, rgba(55, 61, 70, 0) 100%);
+}

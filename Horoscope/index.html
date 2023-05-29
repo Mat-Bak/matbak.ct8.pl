@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <div class="data">
+            <div class="month">
+                <label for="months">Select a Month:</label>
+                <select id="months" name="months" onchange="ChoseMonty()">
+                    <option value="January" class="month">January</option>
+                    <option value="February" class="month">February</option>
+                    <option value="March" class="month">March</option>
+                    <option value="April" class="month">April</option>
+                    <option value="May" class="month">May</option>
+                    <option value="June" class="month">June</option>
+                    <option value="July" class="month">July</option>
+                    <option value="August" class="month">August</option>
+                    <option value="September" class="month">September</option>
+                    <option value="October" class="month">October</option>
+                    <option value="November" class="month">November</option>
+                    <option value="December" class="month">December</option>
+                </select>
+            </div>
+            <div class="day">
+                <label for="days">Select a Day:</label>
+                <select id="days" name="days">
+                    <option value="1" class="day">1</option>
+                    <option value="2" class="day">2</option>
+                    <option value="3" class="day">3</option>
+                    <option value="4" class="day">4</option>
+                    <option value="5" class="day">5</option>
+                    <option value="6" class="day">6</option>
+                    <option value="7" class="day">7</option>
+                    <option value="8" class="day">8</option>
+                    <option value="9" class="day">9</option>
+                    <option value="10" class="day">10</option>
+                    <option value="11" class="day">11</option>
+                    <option value="12" class="day">12</option>
+                    <option value="13" class="day">13</option>
+                    <option value="14" class="day">14</option>
+                    <option value="15" class="day">15</option>
+                    <option value="16" class="day">16</option>
+                    <option value="17" class="day">17</option>
+                    <option value="18" class="day">18</option>
+                    <option value="19" class="day">19</option>
+                    <option value="20" class="day">20</option>
+                    <option value="21" class="day">21</option>
+                    <option value="22" class="day">22</option>
+                    <option value="23" class="day">23</option>
+                    <option value="24" class="day">24</option>
+                    <option value="25" class="day">25</option>
+                    <option value="26" class="day">26</option>
+                    <option value="27" class="day">27</option>
+                    <option value="28" class="day">28</option>
+                    <option value="29" class="day">29</option>
+                    <option value="30" class="day hideThirty">30</option>
+                    <option value="31" class="day hideThirtyOne">31</option>
+                </select>
+            </div>
+            <button onclick="findHoroscopeSymbol()" class="submitButton">Submit</button>
+        </div>
+        <div class="horoscopeImages">
+            <div>
+                <div class="horoscopeImg"></div>
+                <p>Sign</p>
+            </div>
+            <p class="horoscopeName"></p>
+            <div>
+                <div class="horoscopeSing"></div>
+                <p>Symbol</p>
+            </div>
+        </div>
+        <div class="lucky">
+            <div class="luckyNumber">
+                <p >Lucky Number:</p>
+                <b class="number"></b>
+            </div>
+            <div class="luckyColor">
+                <p>Lucky Color</p>
+                <b class="color"></b>
+            </div>
+        </div>
+        <div class="horoscopeText">
+            <div class="horoscopeInfo"></div>
+            <p class="horoscope"></p>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

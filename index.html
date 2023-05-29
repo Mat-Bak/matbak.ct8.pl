@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GGCWD70J5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5GGCWD70J5');
+    </script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Menu navbar -->
+    <div class="menu">
+        
+        
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="leftMenu">
+            <img src="images/logoMB.png" alt="" class="logo" onclick="topFunction()">
+            <p class="menuOptions" > <span class="menuOptionsText" id="AboutMeButton">ABOUT ME</span> </p>
+            <p class="menuOptions" > <span class="menuOptionsText" id="SkillsButton">SKILLS</span> </p> 
+            <p class="menuOptions" > <span class="menuOptionsText" id="ProjectsButton">PROJECTS</span> </p>
+        </div>
+        <div class="contact"> 
+            
+            <a href="https://www.linkedin.com/in/mateusz-bak4" class="contactBox">
+                <img src="images/Linkedin.png" alt="LinedIn-Icon">
+            </a>
+            <a href="https://github.com/Mat-Bak" class="contactBox">
+                <img src="images/git.png" alt="Git-Icon">
+            </a>
+            <a href="https://www.codewars.com/users/MrBonq" class="contactBox">
+                <img src="images/codewars.png" alt="CodeWar-Icon">
+            </a>
+            <a href="https://www.artstation.com/bonq" class="contactBox">
+                <img src="images/ArtStation.png" alt="ArtStation-Icon">
+            </a>
+            <a href="" class="contactBox">
+                <img src="images/email.png" alt="Email-Icon">
+            </a>
+            <a href="CV.pdf" class="contactBox">
+                <img src="images/CV.png" alt="CV-Icon">
+            </a>
+        </div>
+        
+        
+    </div>
+
+<!-- Intro Conteiner -->
+
+    <div class="intro">
+        <code id="HiStart">
+        <!-- &lt;Hi&gt; -->
+        </code>
+
+        <p>
+            <span class="name">
+                <!-- I'm Mateusz                 -->
+            </span> <br>
+            <span class="myJob"> 
+                <!-- FrontEnd Developer | Graphics Designer -->
+            </span>
+        </p>
+
+        <code id="HiEnd">
+            <!-- &lt;/Hi&gt; -->
+            </code>
+    </div>
+
+<!-- About Me Container -->
+<!-- <div class="SectionBreak AboutMeBreak"></div> -->
+<div class="aboutMeConatiner">
+
+    <p class="startAnim"></p>
+
+    <div class="AboutMe" >
+        <code>
+            &lt;AboutMe&gt;
+        </code>
+        <br>
+        <p class="AboutMeText ">
+            <i>
+            Hi, my name is Mateusz and I am a beginner frontend developer. 
+            In my life I have had contact with various programming languages such as 
+            Python, C, C++, C#, Java and JavaScript. After learning the basics of these languages, 
+            I decided to expand my knowledge in frontend programming and started learning HTML and CSS. 
+            After a few months, when I knew HTML and CSS at a good level, 
+            I started learning Java to check what working in the backend looks like. 
+            At the moment I am trying to improve my skills in JavaScript programming and would like to start learning TypeScript.
+        </i>
+        </p>
+        <br>
+        <code>
+            &lt;/AboutMe&gt;
+        </code>
+    </div>
+    <div class="educationContainer">
+        <code>
+            &lt;Education&gt;
+        </code>
+        <div class="masterEdu">
+            <b><span>Masters of Enginnering </span><br>
+                October 2020 - October 2022</b>
+                <br>
+                <i>Jagiellonian University, Poland</i>
+                <ul class="educationSkills">
+                    <li>Programming in python, JavaScript, C#</li>
+                      <li> Computer game engines: Unity and Unreal Engine</li> 
+                       <li> Game level design</li>
+                       <li> 3D modeling and animation</li>
+                      <li>  Creating computer games</li>
+                </ul>
+        </div>
+
+        <div class="bachelorEdu">
+            <b><span>Bachelor of Engineering </span><br>
+                October 2016 - March 2020</b>
+                <br>
+                <i>Jan Dlugosz University, Poland</i>
+                <ul class="educationSkills">
+                    <li>Programming in java, python, C++, C</li>
+                      <li> 3D modeling and animation</li> 
+                       <li> 2D Graphics</li>
+                       <li> Team projects</li>
+                </ul>
+        </div>
+        <code>
+            &lt;Education&gt;
+        </code>
+    </div>
+</div>
+    
+
+    <!-- Skills Container -->
+    <!-- <div class="SectionBreak SkillsBreak"></div> -->
+    
+    <div class="skillsContainer">
+        <hr class="topSkillsLine">
+        <div id="Skills">
+            <code>
+                &lt;Skills&gt;
+            </code>
+            <div class="skill">
+                <img src="images/html.png" alt="HTML-Icon" class="skillIcon">
+            </div>
+            <div class="skill">
+                <img src="images/css.png" alt="CSS-Icon" class="skillIcon">
+            </div>
+            <div class="skill">
+                <img src="images/javascript.png" alt="JS-Icon" class="skillIcon">
+            </div>
+            <div class="skill">
+                <img src="images/java.png" alt="JAVA-Icon" class="skillIcon">
+            </div>
+
+            <code>
+                &lt;/Skills&gt;
+            </code>
+
+        </div>
+
+    <!-- Other Skills Container -->
+    <hr class="skillsLine ">
+    
+    <div id="Skills">
+        <code>
+            &lt;Other&gt;
+        </code>
+        <div class="skill">
+            <img src="images/photoshopV2.png" alt="PhotoShop-Icon" class="skillIcon">
+        </div>
+        <div class="skill">
+            <img src="images/adobe-xd.png" alt="AdobeXD-Icon" class="skillIcon">
+        </div>
+        <div class="skill">
+            <img src="images/corelDraw.png" alt="CorelDraw-Icon" class="skillIcon">
+        </div>
+        <div class="skill">
+            <img src="images/blender.png" alt="Blender-Icon" class="skillIcon">
+        </div>
+        <div class="skill">
+            <img src="images/github.png" alt="GitHub-Icon" class="skillIcon">
+        </div>
+
+        <code>
+            &lt;/Other&gt;
+        </code>
+
+    </div>
+    <hr class="bottomSkillsLine">
+</div>
+
+<!-- Projects -->
+<div class="projectsContainer">
+    <code>
+        &lt;Projects&gt;
+    </code>
+    <div class="projectBox">
+        <div class="imageProject hangman"></div>
+        <div class="descriptionProject"> 
+            <p>
+                Hangman Game <br>
+                <i>(HTML, CSS, JS)</i>
+
+            </p>
+            <button onclick = "window.open('Hangman/index.html')">PLAY</button>
+            <button onclick = "window.open('https://github.com/Mat-Bak/Hangman.git')" >CODE</button>
+        </div>
+    </div>
+    
+    <div class="projectBox">
+        <div class="imageProject pokedex"></div>
+        <div class="descriptionProject">
+            <p>
+                Pokedex Application  <br>
+                <i>(HTML, CSS, JS, API)</i>
+            </p>
+            <button onclick = "window.open('Pokedex/index.html')">PLAY</button>
+            <button onclick = "window.open('https://github.com/Mat-Bak/Pokedex.git')" >CODE</button>
+        </div>
+    </div>
+    
+    <div class="projectBox">
+        <div class="imageProject bankApp"></div>
+        <div class="descriptionProject">
+            <p>
+                Bank Application <br>
+                <i>(Java, Maven)</i>
+            </p>
+            <button onclick = "window.open('https://github.com/Mat-Bak/BankApp.git')">CODE</button>
+        </div>
+    </div>
+
+    <div class="projectBox">
+        <div class="imageProject horoscopeApp"></div>
+        <div class="descriptionProject">
+            <p>
+                Horoscope Application <br>
+                <i>(HTML, CSS, JS, API)</i>
+            </p>
+            <button onclick = "window.open('Horoscope/index.html')">PLAY</button>
+            <button onclick = "window.open('https://github.com/Mat-Bak/Horoscope')">CODE</button>
+        </div>
+    </div>
+
+    <div class="projectBox">
+        <div class="imageProject bridgeBuilderGame"></div>
+        <div class="descriptionProject">
+            <p>
+                Bridge Builder Game <br>
+                <i>(C#, Unity)</i>
+            </p>
+            <button onclick = "window.open('https://github.com/Mat-Bak/BridgeBuilder')">CODE</button>
+        </div>
+    </div>
+    <code>
+        &lt;/Projects&gt;
+    </code>
+
+</div>
+
+    <footer id="footer">
+        <span>&copy; All Rights Reserved</span>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    
+    
+</body>
+</html>
